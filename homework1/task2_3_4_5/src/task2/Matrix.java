@@ -7,7 +7,7 @@ public class Matrix {
 	public static void main(String[] args) {
 		
 	Scanner in = new Scanner(System.in);
-	System.out.print("введите m=n=");
+	System.out.print("vvedite m=n=");
 	int n=in.nextInt();
 	int[][] matrixA =new int[n][n];
 	in.close();	

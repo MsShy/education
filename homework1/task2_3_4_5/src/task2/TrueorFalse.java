@@ -6,7 +6,7 @@ public class TrueorFalse {
 
 	public static void main(String[] args) {
 		Scanner in = new Scanner(System.in);
-		System.out.print("введите четырехзначное число= ");
+		System.out.print("vvedite chislo chetyrehznachnoe= ");
 		int num = in.nextInt();
 		
 		in.close();	
@@ -23,7 +23,7 @@ public class TrueorFalse {
 	
 	System.out.println(sum1 == sum2);}
 		else
-			System.out.println("число не четырехзначное");
+			System.out.println("chislo ne chetyrehznachnoe");
 	}
 
 }

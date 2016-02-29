@@ -13,12 +13,12 @@ public class Tringle {
 		int b = in.nextInt();
 		in.close();
 		double s=(a*b)*0.5;
-		System.out.println("площадь="+s);
+		System.out.println("S="+s);
 		
 		double c=sqrt(pow(a,2)+pow(b,2));
-	    System.out.println("гипотенуза="+c);
+	    
 	    double p=a+b+c;
-	    System.out.println("периметр="+p);		
+	    System.out.println("P="+p);		
 		
 	}
 }

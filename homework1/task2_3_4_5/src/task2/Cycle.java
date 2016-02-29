@@ -13,13 +13,13 @@ public class Cycle {
 		System.out.print("h= ");
 		double h = in.nextDouble();
 		in.close();
-	   System.out.printf("%-8s%-8s%n","i","Значения функции");
+	   System.out.printf("%-8s%-8s%n","i","Znacheniya funkcii");
 	    System.out.println("-----------------------");
 	for (double i=a; i<=b; i+=h){
     double f=tan(i*2)-3;
-    //System.out.println(f);
+    
         System.out.printf("%-8.2f%-8.4f%n",i,f);
-     //   System.out.printf("%-8.3f",i);
+     
     }
 		
 }
